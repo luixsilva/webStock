@@ -1,0 +1,25 @@
+*,
+html {
+  margin: 0;
+  padding: 0;
+}
+
+/*  USE FOR MAKE YOUR APP RESPONSIVE ON EXTRA SMALL SCREEN */
+@media screen {
+}
+
+/*  USE FOR MAKE YOUR APP RESPONSIVE ON SMALL SCREEN */
+@media screen {
+}
+
+/*  USE FOR MAKE YOUR APP RESPONSIVE ON MEDIUM SCREEN */
+@media screen {
+}
+
+/*  USE FOR MAKE YOUR APP RESPONSIVE ON LARGE SCREEN */
+@media screen {
+}
+
+/*  USE FOR MAKE YOUR APP RESPONSIVE ON EXTRA LARGE SCREEN */
+@media screen {
+}
