@@ -1,0 +1,10 @@
+.custom-link{
+    text-decoration: none;
+    color: #AF8260;
+    font-family: cursive;
+    cursor: pointer;
+}
+
+.custom-link:hover{
+    color: #ac805fc2;
+}

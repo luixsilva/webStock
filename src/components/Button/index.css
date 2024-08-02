@@ -1,0 +1,32 @@
+/* Button.css */
+
+.button-container {
+  display: flex;
+  padding: 10px 20px;
+  align-items: center;
+}
+.custom-button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 1.5rem;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s ease;
+}
+
+.custom-button:hover {
+  opacity: 0.8;
+}
+
+.custom-button:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
+
+.custom-button.full-width {
+  width: 100%;
+}
+
+.custom-button:focus {
+  outline: auto;
+}

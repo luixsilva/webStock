@@ -1,0 +1,97 @@
+/* Typography.css */
+.typography {
+  margin: 0;
+  padding: 0;
+  font-family: cursive; /* Ajuste conforme necessário */
+  color: #fff;
+}
+
+.typography.h1 {
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.typography.h2 {
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.typography.h3 {
+  font-size: 1.75rem;
+  font-weight: bold;
+}
+
+.typography.h4 {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.typography.h5 {
+  font-size: 1.25rem;
+  font-weight: bold;
+}
+
+.typography.h6 {
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+.typography.body1 {
+  font-size: 1rem;
+}
+
+.typography.body2 {
+  font-size: 0.875rem;
+}
+
+.typography.caption {
+  font-size: 0.75rem;
+}
+
+.typography.left {
+  text-align: left;
+}
+
+.typography.center {
+  text-align: center;
+}
+
+.typography.right {
+  text-align: right;
+}
+
+.typography.primary {
+  color: #AF8260; /* Cor primária (azul) */
+}
+
+.typography.secondary {
+  color: #6c757d; /* Cor secundária (cinza) */
+}
+
+.typography.success {
+  color: #28a745; /* Cor de sucesso (verde) */
+}
+
+.typography.danger {
+  color: #dc3545; /* Cor de perigo (vermelho) */
+}
+
+.typography.warning {
+  color: #ffc107; /* Cor de aviso (amarelo) */
+}
+
+.typography.info {
+  color: #17a2b8; /* Cor de informação (azul claro) */
+}
+
+.typography.left {
+  text-align: left;
+}
+
+.typography.center {
+  text-align: center;
+}
+
+.typography.right {
+  text-align: right;
+}

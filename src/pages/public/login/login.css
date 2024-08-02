@@ -3,11 +3,21 @@
   justify-content: center;
   align-items: center;
   height: 100vh;
-  width: 100vw;
+  text-align: center;
+  margin-top: -3%;
 }
 
 .login-grid {
-  margin: auto;
   width: 100%;
-  max-width: 100%; /* Largura máxima opcional para o formulário */
+  /* max-width: 100%; */
+}
+
+.img-login{
+  width: 20%;
+  padding: 0;
+  margin: auto;
+}
+
+.back-button{
+  position: absolute;
 }
