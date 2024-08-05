@@ -4,13 +4,17 @@ export class AutenticateService {
   async register(data) {
     try {
       const response = await api.post("/users", data);
-      // Supondo que o token seja retornado na resposta após o registro
-      const token = response.data.token;
-      // Armazene o token no localStorage ou sessionStorage
-      localStorage.setItem("token", token);
-      return response.data;
+
+      // Verifique o que está na resposta para ajustar conforme necessário
+      if (response.data) {
+        const token = response.data.token; // Ajuste conforme a estrutura real da resposta
+        localStorage.setItem("token", token);
+        return response.data; // Retorna a resposta completa para o front-end
+      } else {
+        throw new Error("Resposta da API não contém dados.");
+      }
     } catch (error) {
-      console.error("Erro ao registrar");
+      console.error("Erro ao registrar:", error);
       throw error;
     }
   }

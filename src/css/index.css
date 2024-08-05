@@ -2,25 +2,24 @@
 html {
   margin: 0;
   padding: 0;
-  background-color: #100303;
+  /* background-color: #100303; */
+}
+
+body {
+  background-color: #322C2B;
 }
 
 /*  USE FOR MAKE YOUR APP RESPONSIVE ON EXTRA SMALL SCREEN */
-@media screen {
-}
+@media screen {}
 
 /*  USE FOR MAKE YOUR APP RESPONSIVE ON SMALL SCREEN */
-@media screen {
-}
+@media screen {}
 
 /*  USE FOR MAKE YOUR APP RESPONSIVE ON MEDIUM SCREEN */
-@media screen {
-}
+@media screen {}
 
 /*  USE FOR MAKE YOUR APP RESPONSIVE ON LARGE SCREEN */
-@media screen {
-}
+@media screen {}
 
 /*  USE FOR MAKE YOUR APP RESPONSIVE ON EXTRA LARGE SCREEN */
-@media screen {
-}
+@media screen {}

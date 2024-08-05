@@ -1,4 +1,6 @@
 import React from "react";
+import { toast } from "react-toastify";
+
 import { Typography } from "../../../components/Typograpghy";
 import { Field } from "../../../components/Fields/TextFieldDefault";
 import { Grid, GridItem } from "../../../components/Grid";
@@ -15,12 +17,21 @@ export const Register = () => {
     const senha = document.getElementById("password").value;
     const email = document.getElementById("email").value;
 
-    const { data } = await autenticateService.register({
+    const data = await autenticateService.register({
       name: nome,
       email: email,
       password: senha,
     });
-    console.log("Autenticado", nome, senha, email);
+    console.log(data.status)
+    if (data.status === 200) {
+
+      console.log("Toficandoloco");
+      toast.success(data.message);
+    } else {
+      console.log("Faz o L");
+      toast.error(data.message);
+    }
+    // console.log("Autenticado", nome, senha, email);
   };
   return (
     <>
@@ -63,7 +74,7 @@ export const Register = () => {
               backgroundColor="#AF8260"
               fullWidth
             >
-              Entrar
+              Registrar
             </Button>
           </GridItem>
         </Grid>

@@ -1,0 +1,54 @@
+.Toastify__toast {
+    border-radius: 8px !important;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1) !important;
+    display: flex !important;
+    align-items: center !important;
+    padding: 10px !important;
+    background-color: inherit !important;
+}
+
+.Toastify__toast--success {
+    background-color: #07bc0c !important;
+    color: white !important;
+}
+
+.Toastify__toast--error {
+    background-color: #e74c3c !important;
+    color: white !important;
+}
+
+.Toastify__toast-body {
+    flex: 1 !important;
+    font-weight: bold !important;
+    color: white !important;
+    /* Cor do texto */
+    background-color: inherit !important;
+    /* Herda a cor de fundo do toast */
+}
+
+.Toastify__progress-bar {
+    background-color: rgba(255, 255, 255, 0.7) !important;
+}
+
+.Toastify__progress-bar--success {
+    background-color: rgba(255, 255, 255, 0.7) !important;
+}
+
+.Toastify__progress-bar--error {
+    background-color: rgba(255, 255, 255, 0.7) !important;
+}
+
+.Toastify__close-button {
+    color: white !important;
+    opacity: 1 !important;
+}
+
+.Toastify__toast-icon {
+    color: white !important;
+    /* Cor do ícone */
+}
+
+.Toastify__close-button>svg {
+    fill: white !important;
+    /* Cor do ícone de fechar */
+}

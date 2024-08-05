@@ -18,12 +18,12 @@
   border: 1px solid #fff;
   border-radius: 1.5rem;
   box-sizing: border-box;
-  color: #fff;
+  color: #AF8260;
   font-size: medium;
 }
 /* index.css */
 .field-input::placeholder {
-    color: #fff; 
+    color: #AF8260; 
     opacity: 1;
   }
   
